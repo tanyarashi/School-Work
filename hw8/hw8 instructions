@@ -1,0 +1,51 @@
+COSC2430 Hw8: Path finding from Graph
+1. Introduction
+You will create a C++ program that can find path from given graph.
+2. Input and Output
+G = (V;E) is a directed graph, where n vertices and m edges. G can be represented as an adjacency matrix E, n x n, where n <= 10000. Please see Figure 1 as an example. You will read a sparse matrix E from an input file; There will be ONE matrix entry per line in the input file and each line will have a triplet of numbers: i j and length, where 1 <= i, j <= n indicate the node label, length denotes the length for a directed edge pointing from vertex i to j. Given a source vertex 1 <= i <= n and a destination vertex 1 <= j <= n, your program should output the result of the shortest path from i to j.
+Two files will be given:
+1. Input file: contains the vertices and edges, the form of the input file detailed
+above. All lengths are decimals and greater than 0. All vertex labels are integers and greater than 0. The file should be read sequentially. If same directed edge with different edge length, only the latter one should be kept. All data will be meaningful, no error data will be given. Empty lines may be given.
+ Figure 1: The adjacency matrix E (sparse representation) for a sample graph G
+2. Path file: contains the labels of the source and the destination vertices. The first line is the source vertex, the second line is the destination vertex. The vertices label may be invalid, if that happens, you should follow the output protocols to output specific result. Labels are only integers, you don’t need to
+consider the letters. Empty lines may be given.
+3. Output file: contains your result. If two points are unreachable, you should
+output “Infinite” (case sensitive). If one of the endpoints is invalid, you should treat it as unreachable. If the path pass destination vertex, the path should stop at destination vertex. The output contains 1 decimal only. A path starts
+
+and ends with same vertex is a 0 length path, the shortest path should be 0.0.
+Example1 for Figure 1. input41.txt
+2 1 1.2
+2 3 1.9
+3 5 1.5 4 5 1.2 5 6 7.8 5 7 3.5 5 8 2.2 6 4 1.1 7 6 2.4 9 5 1.8 10 9 1.9 11 2 1.4
+path41.txt 2
+6
+output41.txt 9.3
+Example2 for Figure 1. input42.txt
+2 1 1.2
+2 3 1.9
+3 5 1.5 4 5 1.2 5 6 7.8 5 7 3.5 5 8 2.2 6 4 1.1 7 6 2.4 9 5 1.8 10 9 1.9 11 2 1.4
+path42.txt 11
+
+7
+output42.txt 8.3
+Example3 for Figure 1. input43.txt
+2 1 1.2
+2 3 1.9
+3 5 1.5 4 5 1.2 5 6 7.8 5 7 3.5 5 8 2.2 6 4 1.1 7 6 2.4 9 5 1.8 10 9 1.9 11 2 1.4
+path43.txt 12
+7
+output43.txt Infinite
+3. Program and input specification
+The main C++ program will become the executable to be tested by the TAs. The result file should be written to another text file (output file), provided with the command line. Notice that the input and output files are specified in the command line, not inside the C++ code. Notice also the quotes in the program call, to avoid Unix/Windows get confused.
+The general call to the executable is as follows:
+
+graph “input=input81.txt;path=path81.txt;output=output81.txt” Call example with another command line type.
+graph input=input81.txt path=path81.txt output=output81.txt both types may be used simultaneously.
+4. Requirements
+• Homeworkisindividual.Yourhomeworkwillbeautomaticallyscreenedforcode plagiarism against code from the other students and code from external sources. If you copy/download source code from the Internet or a book, it is better for you to acknowledge it in your comments, instead of the TAs detecting it. Code that is detected to be copied from another student (for instance, renaming variables, changing for and while loops, changing indentation, etc) will result in ”Fail” in the course and being reported to UH upper administration.
+• timeout is set to 2s.
+5. Turn in your homework
+Homework 8 need to be turned in to our Linux server, follow the link here http://www2.cs.uh.edu/~rizk/homework.html.
+Make sure to create a folder under your root directory, name it hw8 (name need to be lower case), only copy your code to this folder, don’t leave testcase or other files irrelevant. If you use ArgumentManager.h, don’t forget to turn in it too.
+
+ps. This document may have typos, if you think something illogical, please email TAs or Teacher for confirmation.
