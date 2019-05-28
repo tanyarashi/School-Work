@@ -1,3 +1,0 @@
-Degree=3
-Inorder Traversal
-Level 2
