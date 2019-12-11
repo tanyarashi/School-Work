@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{33275CA3-0147-9A90-A7DE-1F4CA6BB87CD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/specialAttacks/Charged_Blast.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player/PlayerStats.cs" Line="231" Column="6" />
+      <File FileName="Assets/Scripts/Drops/pickUps.cs" Line="50" Column="17" />
+      <File FileName="Assets/Scripts/TanyaScripts/SoundManagerScript.cs" />
+      <File FileName="Assets/Scripts/Player/DestroyImpactEffect.cs" />
+      <File FileName="Assets/Scripts/bustos scripts/weapons.cs" Line="23" Column="2" />
+      <File FileName="Assets/Scripts/PurpleAlienShoot.cs" />
+      <File FileName="Assets/Scripts/Player/PlaneWeapon.cs" />
+      <File FileName="Assets/Scripts/specialAttacks/Charged_Blast.cs" Line="31" Column="48" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" />
+      <File FileName="Assets/Scripts/Weapon.cs" Line="34" Column="9" />
+      <File FileName="Assets/Scripts/TanyaScripts/pointattack.cs" Line="18" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QUANTUM LEAP (1)" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="AstarPathfindingProject" expanded="True" />
+              <Node name="Editor" expanded="True" />
+              <Node name="Gizmos" expanded="True" />
+              <Node name="Images" expanded="True" />
+              <Node name="Main Menu Assets" expanded="True" />
+              <Node name="Prefabs" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="bustos scripts" expanded="True" />
+                <Node name="checkPoint" expanded="True" />
+                <Node name="Drops" expanded="True" />
+                <Node name="Editor" expanded="True" />
+                <Node name="Enemy" expanded="True">
+                  <Node name="melee_Alien" expanded="True" />
+                </Node>
+                <Node name="PlatformMovement" expanded="True" />
+                <Node name="Player" expanded="True" />
+                <Node name="specialAttacks" expanded="True">
+                  <Node name="Charged_Blast.cs" selected="True" />
+                </Node>
+                <Node name="TanyaScripts" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+              <Node name="Sprites" expanded="True">
+                <Node name="ARES" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2344bf25-24b8-48ba-910c-2e0681b3c02b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
